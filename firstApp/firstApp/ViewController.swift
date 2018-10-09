@@ -10,11 +10,20 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+    @IBOutlet weak var button: UIButton!
+    @IBOutlet weak var button2: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+       button.backgroundColor = .yellow
+        
     }
 
 
+    @IBAction func act1(_ sender: Any) {
+        button2.backgroundColor = .red
+        
+    }
 }
 
