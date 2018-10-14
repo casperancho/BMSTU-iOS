@@ -18,3 +18,4 @@ final class FeedModel {
         goods = [good1, good2, good3]
     }
 }
+//#imageLiteral(resourceName: "img1")

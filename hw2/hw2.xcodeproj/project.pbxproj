@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D7506912171483E00253988 /* newAddYotaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D75068F2171483E00253988 /* newAddYotaTableViewCell.swift */; };
+		7D7506922171483E00253988 /* newAddYotaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7D7506902171483E00253988 /* newAddYotaTableViewCell.xib */; };
+		7D7506942171E1D000253988 /* tovar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7506932171E1D000253988 /* tovar.swift */; };
+		7D7506962171E32B00253988 /* FeedMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7506952171E32B00253988 /* FeedMode.swift */; };
+		7D7506982173DFDE00253988 /* TovarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7506972173DFDD00253988 /* TovarViewController.swift */; };
+		7D75069A2173E7A400253988 /* FullScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7506992173E7A400253988 /* FullScreenViewController.swift */; };
 		7DB3290C2170C54E006C382D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3290B2170C54E006C382D /* AppDelegate.swift */; };
 		7DB3290E2170C54E006C382D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3290D2170C54E006C382D /* ViewController.swift */; };
 		7DB329112170C54E006C382D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3290F2170C54E006C382D /* Main.storyboard */; };
 		7DB329132170C54F006C382D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DB329122170C54F006C382D /* Assets.xcassets */; };
 		7DB329162170C54F006C382D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DB329142170C54F006C382D /* LaunchScreen.storyboard */; };
+		7DB3291F2170DB67006C382D /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3291D2170DB67006C382D /* ProductCell.swift */; };
+		7DB329202170DB67006C382D /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DB3291E2170DB67006C382D /* ProductCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7D75068F2171483E00253988 /* newAddYotaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newAddYotaTableViewCell.swift; sourceTree = "<group>"; };
+		7D7506902171483E00253988 /* newAddYotaTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = newAddYotaTableViewCell.xib; sourceTree = "<group>"; };
+		7D7506932171E1D000253988 /* tovar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tovar.swift; sourceTree = "<group>"; };
+		7D7506952171E32B00253988 /* FeedMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedMode.swift; sourceTree = "<group>"; };
+		7D7506972173DFDD00253988 /* TovarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TovarViewController.swift; sourceTree = "<group>"; };
+		7D7506992173E7A400253988 /* FullScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenViewController.swift; sourceTree = "<group>"; };
 		7DB329082170C54E006C382D /* hw2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hw2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DB3290B2170C54E006C382D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DB3290D2170C54E006C382D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,8 @@
 		7DB329122170C54F006C382D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DB329152170C54F006C382D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DB329172170C54F006C382D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DB3291D2170DB67006C382D /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		7DB3291E2170DB67006C382D /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,14 @@
 				7DB329122170C54F006C382D /* Assets.xcassets */,
 				7DB329142170C54F006C382D /* LaunchScreen.storyboard */,
 				7DB329172170C54F006C382D /* Info.plist */,
+				7DB3291D2170DB67006C382D /* ProductCell.swift */,
+				7DB3291E2170DB67006C382D /* ProductCell.xib */,
+				7D75068F2171483E00253988 /* newAddYotaTableViewCell.swift */,
+				7D7506902171483E00253988 /* newAddYotaTableViewCell.xib */,
+				7D7506932171E1D000253988 /* tovar.swift */,
+				7D7506952171E32B00253988 /* FeedMode.swift */,
+				7D7506972173DFDD00253988 /* TovarViewController.swift */,
+				7D7506992173E7A400253988 /* FullScreenViewController.swift */,
 			);
 			path = hw2;
 			sourceTree = "<group>";
@@ -123,8 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DB329162170C54F006C382D /* LaunchScreen.storyboard in Resources */,
+				7DB329202170DB67006C382D /* ProductCell.xib in Resources */,
 				7DB329132170C54F006C382D /* Assets.xcassets in Resources */,
 				7DB329112170C54E006C382D /* Main.storyboard in Resources */,
+				7D7506922171483E00253988 /* newAddYotaTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7D7506942171E1D000253988 /* tovar.swift in Sources */,
+				7DB3291F2170DB67006C382D /* ProductCell.swift in Sources */,
+				7D7506962171E32B00253988 /* FeedMode.swift in Sources */,
+				7D75069A2173E7A400253988 /* FullScreenViewController.swift in Sources */,
 				7DB3290E2170C54E006C382D /* ViewController.swift in Sources */,
 				7DB3290C2170C54E006C382D /* AppDelegate.swift in Sources */,
+				7D7506912171483E00253988 /* newAddYotaTableViewCell.swift in Sources */,
+				7D7506982173DFDE00253988 /* TovarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
