@@ -25,7 +25,7 @@ final class ProductCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         imageLabel.backgroundColor = UIColor.purple
-        descLabel.textColor  = .blue
+        descLabel.textColor  = .black
     }
     
     func configureView(product : Tovar)

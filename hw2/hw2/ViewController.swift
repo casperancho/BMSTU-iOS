@@ -14,34 +14,37 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     private let addCell = "newAddYotaTableViewCell"
    
     var model = FeedMode()
-  
+    var k: Int = 0
     private let estimatedRowHeight: CGFloat = 136
     
     // количество строк в секции
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        var count = (model.tovars.count)/3
-        print(count)
-        return model.tovars.count+count
+        return model.tovars.count+model.tovars.count/2+1
     }
     
     // создание ячейки в строке
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if ((indexPath.row+1)%3 != 0){
-          let cell = tableView.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as? ProductCell
-            cell?.configureView(product: model.tovars[indexPath.row])
-        
-            return cell!
+        if((indexPath.row % 3) != 0){
+            guard let cell = tableview.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as? ProductCell else {
+                return UITableViewCell()
+            }
+            let x = (indexPath.row)/3 + 1
+            cell.configureView(product: model.tovars[indexPath.row - x])
+            return cell
         }else{
-            let cell = tableView.dequeueReusableCell(withIdentifier: addCell, for: indexPath) as? newAddYotaTableViewCell
-//            cell?.configureView(product: model.tovars[indexPath.row])
-            return cell!
+            let cell = tableview.dequeueReusableCell(withIdentifier: addCell, for: indexPath) as! newAddYotaTableViewCell
+            return cell
         }
     }
     // создание segue
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let tovar = model.tovars[indexPath.row]
+        if ((indexPath.row % 3) != 0){
+            let x = (indexPath.row)/3 + 1
+        let tovar = model.tovars[indexPath.row - x]
         performSegue(withIdentifier: segueName, sender: tovar)
+        }
     }
+    
     
     @IBOutlet weak var tableview: UITableView!
     
@@ -83,3 +86,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 }
 
+//if ((indexPath.row%3 == 0){
+//    let cell = tableview.dequeueReusableCell(withIdentifier: addCell, for: indexPath) as? newAddYotaTableViewCell
+//    return cell!
+//    }else{
+//
+//    let cell = tableview.dequeueReusableCell(withIdentifier: cellId, for: indexPath) as? ProductCell
+//    cell?.configureView(product: model.tovars[k])
+//    k=k+1
+//    return cell!
+//}

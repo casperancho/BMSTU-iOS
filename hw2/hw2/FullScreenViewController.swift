@@ -14,9 +14,14 @@ class FullScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         imageView.image = tovar.image
         let gesture = UISwipeGestureRecognizer(target: self, action: #selector(swiped))
         imageView.addGestureRecognizer(gesture)
+    }
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
     
     @objc func swiped() {

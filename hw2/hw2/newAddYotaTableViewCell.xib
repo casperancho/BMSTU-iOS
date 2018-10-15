@@ -18,11 +18,16 @@
                 <rect key="frame" x="0.0" y="0.0" width="320" height="67.5"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="yota" translatesAutoresizingMaskIntoConstraints="NO" id="8mB-f1-zUl">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yota" translatesAutoresizingMaskIntoConstraints="NO" id="8mB-f1-zUl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="67.5"/>
                     </imageView>
                 </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="8mB-f1-zUl" secondAttribute="trailing" id="Yvu-Ee-xD6"/>
+                    <constraint firstAttribute="bottom" secondItem="8mB-f1-zUl" secondAttribute="bottom" id="acY-nw-v4B"/>
+                    <constraint firstItem="8mB-f1-zUl" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="guD-r0-P3b"/>
+                    <constraint firstItem="8mB-f1-zUl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="rJl-DH-cTI"/>
+                </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <point key="canvasLocation" x="-50" y="148"/>
