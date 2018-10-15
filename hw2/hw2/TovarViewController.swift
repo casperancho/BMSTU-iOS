@@ -20,10 +20,6 @@ final class TovarViewController: UIViewController
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
-//        let gesture = UITapGestureRecognizer(target: self, action: #selector(openInFullScreen))
-//        tovarImageView.isUserInteractionEnabled = true
-//        tovarImageView.addGestureRecognizer(gesture)
-        
     }
     
     func setupUI(){
@@ -41,7 +37,7 @@ final class TovarViewController: UIViewController
         let vc = storyBoard.instantiateViewController(withIdentifier: "FullScreenViewController") as! FullScreenViewController 
         vc.tovar = tovar
         self.navigationController?.pushViewController(vc, animated: true)
-//        present(vc, animated: true, completion: nil)
+
     }
     @IBAction func showFullImage(_ sender: Any) {
         openInFullScreen()
