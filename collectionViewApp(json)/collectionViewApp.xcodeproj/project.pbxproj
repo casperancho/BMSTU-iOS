@@ -13,7 +13,7 @@
 		7D0732C9218B195F006F2AA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0732C8218B195F006F2AA3 /* Assets.xcassets */; };
 		7D0732CC218B195F006F2AA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0732CA218B195F006F2AA3 /* LaunchScreen.storyboard */; };
 		7D0732D4218B1BBD006F2AA3 /* animeSelf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0732D3218B1BBD006F2AA3 /* animeSelf.swift */; };
-		7D0732D6218B39B0006F2AA3 /* myTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0732D5218B39B0006F2AA3 /* myTableViewCell.swift */; };
+		7D0732D6218B39B0006F2AA3 /* AnimeTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0732D5218B39B0006F2AA3 /* AnimeTableCell.swift */; };
 		7DAF9504218C698A005A9407 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DAF9503218C698A005A9407 /* SwiftyJSON.framework */; };
 		7DAF950F218C6A2C005A9407 /* code_geass.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF9505218C6A2A005A9407 /* code_geass.json */; };
 		7DAF9510218C6A2C005A9407 /* fma.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF9506218C6A2A005A9407 /* fma.json */; };
@@ -25,6 +25,11 @@
 		7DAF9516218C6A2C005A9407 /* attack_on_titan.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF950C218C6A2B005A9407 /* attack_on_titan.json */; };
 		7DAF9517218C6A2C005A9407 /* opm.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF950D218C6A2B005A9407 /* opm.json */; };
 		7DAF9518218C6A2C005A9407 /* steinsgate.json in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF950E218C6A2C005A9407 /* steinsgate.json */; };
+		7DAF951A21910687005A9407 /* AnTabCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF951921910687005A9407 /* AnTabCell.xib */; };
+		7DAF951F21911A28005A9407 /* attack_on_titan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF951B21911A27005A9407 /* attack_on_titan.jpg */; };
+		7DAF952021911A28005A9407 /* gto.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF951C21911A28005A9407 /* gto.jpg */; };
+		7DAF952121911A28005A9407 /* monster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF951D21911A28005A9407 /* monster.jpg */; };
+		7DAF952221911A28005A9407 /* usagi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7DAF951E21911A28005A9407 /* usagi.jpg */; };
 		8FB28D9D1656A3F9C0539019 /* Pods_collectionViewApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED5DAD7AF0B55E872DF8455 /* Pods_collectionViewApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +44,7 @@
 		7D0732CB218B195F006F2AA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D0732CD218B195F006F2AA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D0732D3218B1BBD006F2AA3 /* animeSelf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animeSelf.swift; sourceTree = "<group>"; };
-		7D0732D5218B39B0006F2AA3 /* myTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTableViewCell.swift; sourceTree = "<group>"; };
+		7D0732D5218B39B0006F2AA3 /* AnimeTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeTableCell.swift; sourceTree = "<group>"; };
 		7DAF9503218C698A005A9407 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DAF9505218C6A2A005A9407 /* code_geass.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = code_geass.json; sourceTree = "<group>"; };
 		7DAF9506218C6A2A005A9407 /* fma.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fma.json; sourceTree = "<group>"; };
@@ -51,6 +56,11 @@
 		7DAF950C218C6A2B005A9407 /* attack_on_titan.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = attack_on_titan.json; sourceTree = "<group>"; };
 		7DAF950D218C6A2B005A9407 /* opm.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = opm.json; sourceTree = "<group>"; };
 		7DAF950E218C6A2C005A9407 /* steinsgate.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = steinsgate.json; sourceTree = "<group>"; };
+		7DAF951921910687005A9407 /* AnTabCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnTabCell.xib; sourceTree = "<group>"; };
+		7DAF951B21911A27005A9407 /* attack_on_titan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = attack_on_titan.jpg; sourceTree = "<group>"; };
+		7DAF951C21911A28005A9407 /* gto.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gto.jpg; sourceTree = "<group>"; };
+		7DAF951D21911A28005A9407 /* monster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monster.jpg; sourceTree = "<group>"; };
+		7DAF951E21911A28005A9407 /* usagi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usagi.jpg; sourceTree = "<group>"; };
 		E5DA240E3531C9A9F346FAF7 /* Pods-collectionViewApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collectionViewApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-collectionViewApp/Pods-collectionViewApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -100,14 +110,19 @@
 				7D0732C1218B195E006F2AA3 /* AppDelegate.swift */,
 				7D0732C3218B195E006F2AA3 /* ViewController.swift */,
 				7D0732C5218B195E006F2AA3 /* Main.storyboard */,
+				7DAF951921910687005A9407 /* AnTabCell.xib */,
 				7D0732C8218B195F006F2AA3 /* Assets.xcassets */,
 				7D0732CA218B195F006F2AA3 /* LaunchScreen.storyboard */,
 				7D0732CD218B195F006F2AA3 /* Info.plist */,
 				7D0732D3218B1BBD006F2AA3 /* animeSelf.swift */,
-				7D0732D5218B39B0006F2AA3 /* myTableViewCell.swift */,
+				7D0732D5218B39B0006F2AA3 /* AnimeTableCell.swift */,
 				7DAF950C218C6A2B005A9407 /* attack_on_titan.json */,
 				7DAF950A218C6A2B005A9407 /* beck.json */,
 				7DAF9507218C6A2A005A9407 /* clannad.json */,
+				7DAF951B21911A27005A9407 /* attack_on_titan.jpg */,
+				7DAF951C21911A28005A9407 /* gto.jpg */,
+				7DAF951D21911A28005A9407 /* monster.jpg */,
+				7DAF951E21911A28005A9407 /* usagi.jpg */,
 				7DAF9505218C6A2A005A9407 /* code_geass.json */,
 				7DAF9506218C6A2A005A9407 /* fma.json */,
 				7DAF950B218C6A2B005A9407 /* gto.json */,
@@ -188,17 +203,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DAF952021911A28005A9407 /* gto.jpg in Resources */,
+				7DAF951F21911A28005A9407 /* attack_on_titan.jpg in Resources */,
 				7DAF9516218C6A2C005A9407 /* attack_on_titan.json in Resources */,
 				7D0732CC218B195F006F2AA3 /* LaunchScreen.storyboard in Resources */,
 				7DAF9512218C6A2C005A9407 /* usagi.json in Resources */,
 				7DAF9511218C6A2C005A9407 /* clannad.json in Resources */,
+				7DAF951A21910687005A9407 /* AnTabCell.xib in Resources */,
 				7DAF9510218C6A2C005A9407 /* fma.json in Resources */,
 				7DAF9518218C6A2C005A9407 /* steinsgate.json in Resources */,
 				7DAF9514218C6A2C005A9407 /* beck.json in Resources */,
 				7D0732C9218B195F006F2AA3 /* Assets.xcassets in Resources */,
+				7DAF952121911A28005A9407 /* monster.jpg in Resources */,
 				7DAF9517218C6A2C005A9407 /* opm.json in Resources */,
 				7D0732C7218B195E006F2AA3 /* Main.storyboard in Resources */,
 				7DAF950F218C6A2C005A9407 /* code_geass.json in Resources */,
+				7DAF952221911A28005A9407 /* usagi.jpg in Resources */,
 				7DAF9513218C6A2C005A9407 /* monster.json in Resources */,
 				7DAF9515218C6A2C005A9407 /* gto.json in Resources */,
 			);
@@ -260,7 +280,7 @@
 			files = (
 				7D0732D4218B1BBD006F2AA3 /* animeSelf.swift in Sources */,
 				7D0732C4218B195E006F2AA3 /* ViewController.swift in Sources */,
-				7D0732D6218B39B0006F2AA3 /* myTableViewCell.swift in Sources */,
+				7D0732D6218B39B0006F2AA3 /* AnimeTableCell.swift in Sources */,
 				7D0732C2218B195E006F2AA3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
