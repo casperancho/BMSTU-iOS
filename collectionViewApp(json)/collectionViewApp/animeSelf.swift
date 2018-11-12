@@ -18,13 +18,14 @@ struct Anime{
     let image : UIImage
 }
 
+
 //extension Anime{
 //
 //    init?(dict : NSDictionary) {
 //        guard
 //            let name = dict["name"] as? String,
 //            let genre = dict["type"] as? String,
-//            let episodes = dict["episodes"] as? Int,
+//            let episodes = dict["episodes"] as? String,
 //            let episodes_length = dict["episode_length"] as? String,
 //            let description = dict["description"] as? String
 //            else {return nil}
@@ -34,7 +35,7 @@ struct Anime{
 //        self.episodes = episodes
 //        self.episodes_length = episodes_length
 //        self.description = description
-//
+////        self.image = image
 //    }
-
+//
 //}
