@@ -20,10 +20,10 @@ class InformationViewController : UIViewController {
     @IBOutlet weak var descLabel: UILabel!
     
     func setupUI(specialImage : UIImage){
-        nameLabel.text = anime.name
-        genreLabel.text = anime.genre
-        episodesLabel.text = anime.episodes
-        episodesLengthLabel.text = anime.episodes_length
+        nameLabel.text = "Название:"+anime.name
+        genreLabel.text = "Жанр:"+anime.genre
+        episodesLabel.text = "Количество эпизодов:"+anime.episodes
+        episodesLengthLabel.text = "Продолжительность:"+anime.episodes_length
         descLabel.text = anime.description
         image.image = specialImage
     }

@@ -16,7 +16,7 @@ class AnimeCell : UITableViewCell{
     
     func configureView(anime: Post, image: UIImage){
         nameLabel.text = anime.name
-        episodesLabel.text = anime.episodes
+        episodesLabel.text = "Episodes: "+anime.episodes
         seldImage.image = image
        
     
