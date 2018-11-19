@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="H8v-jY-rxZ">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Google-->
+        <scene sceneID="kgu-rG-KWr">
+            <objects>
+                <viewController id="BtY-m6-EQr" customClass="GoogleWebView" customModule="webView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="B1R-7o-sQD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZDU-bo-ExY">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ZDU-bo-ExY" firstAttribute="leading" secondItem="Nsk-c1-Gte" secondAttribute="leading" id="D8l-iZ-F4y"/>
+                            <constraint firstItem="Nsk-c1-Gte" firstAttribute="trailing" secondItem="ZDU-bo-ExY" secondAttribute="trailing" id="HxC-wx-z1c"/>
+                            <constraint firstItem="ZDU-bo-ExY" firstAttribute="top" secondItem="Nsk-c1-Gte" secondAttribute="top" id="RYj-T9-gO5"/>
+                            <constraint firstItem="Nsk-c1-Gte" firstAttribute="bottom" secondItem="ZDU-bo-ExY" secondAttribute="bottom" id="efk-33-Ftf"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Nsk-c1-Gte"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Google" id="WHx-JX-8p3"/>
+                    <connections>
+                        <outlet property="webView" destination="ZDU-bo-ExY" id="KNw-et-Jcl"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dXo-9P-cXR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="211" y="15"/>
+        </scene>
+        <!--Reebok-->
+        <scene sceneID="CIj-Nd-c6x">
+            <objects>
+                <viewController id="eWk-FM-Bfj" customClass="ReebokWebView" customModule="webView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8Yy-QT-7bi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kTo-rs-lEB">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="0An-i1-7ZF" firstAttribute="trailing" secondItem="kTo-rs-lEB" secondAttribute="trailing" id="0ND-ed-XIo"/>
+                            <constraint firstItem="kTo-rs-lEB" firstAttribute="leading" secondItem="0An-i1-7ZF" secondAttribute="leading" id="4dj-9u-c63"/>
+                            <constraint firstItem="kTo-rs-lEB" firstAttribute="top" secondItem="0An-i1-7ZF" secondAttribute="top" id="icv-jK-HqQ"/>
+                            <constraint firstItem="0An-i1-7ZF" firstAttribute="bottom" secondItem="kTo-rs-lEB" secondAttribute="bottom" id="kzP-ku-36X"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="0An-i1-7ZF"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Reebok" id="pW7-3m-Z3r"/>
+                    <connections>
+                        <outlet property="webView" destination="kTo-rs-lEB" id="LDb-0l-GWu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KPT-nu-kT1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="211" y="-650"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vEO-6e-vFE">
+            <objects>
+                <navigationController id="H8v-jY-rxZ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="WmL-JJ-r4r">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="AGm-rD-6kK" kind="relationship" relationship="rootViewController" id="HHT-5t-6hM"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AaW-Kv-G2m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2964" y="-357"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EoJ-Qm-j0z">
+            <objects>
+                <viewController id="AGm-rD-6kK" customClass="ViewController" customModule="webView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P0s-7B-hu6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="9NF-xT-z61">
+                                <rect key="frame" x="166" y="299.5" width="43" height="68"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eoa-xt-am2">
+                                        <rect key="frame" x="0.0" y="0.0" width="43" height="30"/>
+                                        <state key="normal" title="to Tab"/>
+                                        <connections>
+                                            <segue destination="0hI-s0-Ggn" kind="show" id="BfO-jr-nfC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tug-ce-YlX">
+                                        <rect key="frame" x="0.0" y="38" width="43" height="30"/>
+                                        <state key="normal" title="safari"/>
+                                        <connections>
+                                            <action selector="safariButton:" destination="AGm-rD-6kK" eventType="touchUpInside" id="2cW-TK-O1u"/>
+                                            <action selector="safariButton:" destination="cGL-V9-7OU" eventType="touchUpInside" id="y01-2b-ugO"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="9NF-xT-z61" firstAttribute="centerY" secondItem="P0s-7B-hu6" secondAttribute="centerY" id="Qyo-XL-IJ4"/>
+                            <constraint firstItem="9NF-xT-z61" firstAttribute="centerX" secondItem="P0s-7B-hu6" secondAttribute="centerX" id="noq-mp-F49"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="se0-CH-YO1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="gT1-1O-whS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Rge-hK-UWc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="cGL-V9-7OU" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="-1532" y="-545"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="pIP-Mx-SeD">
+            <objects>
+                <tabBarController id="0hI-s0-Ggn" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Mt5-oA-GqX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="eWk-FM-Bfj" kind="relationship" relationship="viewControllers" id="cg7-9L-qjz"/>
+                        <segue destination="BtY-m6-EQr" kind="relationship" relationship="viewControllers" id="nKl-xf-CxR"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pfK-PU-yZg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-740" y="-318"/>
+        </scene>
+    </scenes>
+</document>
