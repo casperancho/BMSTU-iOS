@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.42</VERSION>
+ <DEVICE>ATmega8515</DEVICE>
+ <WORKING_DIR>C:\brigada\LR1Zak</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes</DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\brigada\LR1Zak\LR1Zak.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\AVR Tools\AvrAssembler2\Appnotes\m8515def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\brigada\LR1Zak\LR1Zak.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>C:\brigada\LR1Zak\LR1Zak.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>C:\brigada\LR1Zak\LR1Zak.map</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <init><FILE>C:\brigada\LR1Zak\LR1Zak.asm</FILE><LINE>9</LINE></init>
+  <WAITSTART><FILE>C:\brigada\LR1Zak\LR1Zak.asm</FILE><LINE>19</LINE></WAITSTART>
+  <LOOP><FILE>C:\brigada\LR1Zak\LR1Zak.asm</FILE><LINE>23</LINE></LOOP>
+  <d1><FILE>C:\brigada\LR1Zak\LR1Zak.asm</FILE><LINE>25</LINE></d1>
+  <d2><FILE>C:\brigada\LR1Zak\LR1Zak.asm</FILE><LINE>26</LINE></d2>
+  <d3><FILE>C:\brigada\LR1Zak\LR1Zak.asm</FILE><LINE>27</LINE></d3>
+  <MM><FILE>C:\brigada\LR1Zak\LR1Zak.asm</FILE><LINE>37</LINE></MM>
+  <LEFT><FILE>C:\brigada\LR1Zak\LR1Zak.asm</FILE><LINE>47</LINE></LEFT>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,17 @@
+Creating   'lr1.eep'
+Creating   'lr1.hex'
+Creating   'lr1.obj'
+Creating   'lr1.lis'
+Creating   'lr1.map'
+
+Assembling 'lr1.asm'
+Including  'c:\vmlab\include\8515def.inc'
+
+Program memory usage:
+Code             :   35 words
+Constants (dw/db):    0 words
+Unused           :    0 words
+Total            :   35 words
+
+Assembly complete with no errors.
+Deleting   'lr1.eep'
